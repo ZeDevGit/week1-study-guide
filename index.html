@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Edward's Week 1 Cheatsheet!</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="page-title">
+            Edward's Week 1 Study Cheatsheet!
+        </h1>
+        <p>
+            This week we covered a lot of interesting material, and I wanted to create a site of useful
+            CSS tips and code for reference in the future!
+        </p>
+    </header>
+    <div class="html-tips">
+        <h1 class="html-tips-title">
+            HTML Basic Tips
+        </h1>
+        <p>
+            This section is focused on the basic HTML tags and rules we learned this week.
+        </p>
+    </div>
+    <section class="html-cards">
+        <!-- Each card requires its own separate div we've organized through divs in the section class
+            under the Main tag -->
+        <section class="row justify-center">
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Linking style sheets</h2>
+                    <div class="card-body">
+                        <p>Use the link tag to link your style sheet from a different folder.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>Link element: 
+< link rel="stylesheet" href="./assets/css/style.css"/ >
+</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">figure</h2>
+                    <div class="card-body">
+                        <p>Semantic element that can be used for pictures along with figcaption to add text below it.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>< figure> 
+< figcaption>text goes here.</figcaption></figure></code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Testing card</h2>
+                    <div class="card-body">
+                        <p></p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>.row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Testing card</h2>
+                    <div class="card-body">
+                        <p></p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>.row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Testing card</h2>
+                    <div class="card-body">
+                        <p></p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>.row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Testing card</h2>
+                    <div class="card-body">
+                        <p></p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>.row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}</code></pre>
+                </figure>
+            </div>
+        </section>
+    </section>
+    <div class="html-tips">
+        <h1 class="html-tips-title">
+            CSS Tips
+        </h1>
+        <p>
+            This section is focused on the basic HTML tags and rules we learned this week.
+        </p>
+    </div>
+        <section class="css-cards">
+            <!-- Each card requires its own separate div we've organized through divs in the section class
+            under the Main tag -->
+            <section class="row justify-center">
+                <div class="card-column">
+                    <figure class="card code-card">
+                        <h2 class="card-header">.class</h2>
+                        <div class="card-body">
+                            <p>Create separate classes to style elements using . followed by the name you want.</p>
+                        </div>
+                        <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                        <pre class="code-block"><code>.className {
+
+}
+                        </code></pre>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card code-card">
+                        <h2 class="card-header">#id</h2>
+                        <div class="card-body">
+                            <p>Similar to class, however they are only meant to be used for one single element on the page.</p>
+                        </div>
+                        <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                        <pre class="code-block"><code>#id {
+                            
+}</code></pre>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card code-card">
+                        <h2 class="card-header">*</h2>
+                        <div class="card-body">
+                            <p>Universal selector used when you want to affect every element on the page.</p>
+                        </div>
+                        <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                        <pre class="code-block"><code>* {
+
+}</code></pre>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card code-card">
+                        <h2 class="card-header">display</h2>
+                        <div class="card-body">
+                            <p>Used to change how elements appear on the page. Can be as block, inline, or none.</p>
+                        </div>
+                        <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                        <pre class="code-block"><code>display: block;
+display: inline;
+display: none;
+                        </code></pre>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card code-card">
+                        <h2 class="card-header">position:</h2>
+                        <div class="card-body">
+                            <p>Can be used to position elements on a page 4 different ways.</p>
+                        </div>
+                        <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                        <pre class="code-block"><code>.typesofposition {
+position: relative;
+position: static;
+position: absolute;
+position: fixed;
+}</code></pre>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card code-card">
+                        <h2 class="card-header">transform:</h2>
+                        <div class="card-body">
+                            <p>Lets you rotate, scale, skew, or translate an element.</p>
+                        </div>
+                        <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                        <pre class="code-block"><code>.row {
+transform: scale();
+transform: rotate();
+transform: skew();
+}</code></pre>
+                    </figure>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <div class="html-tips">
+        <h1 class="html-tips-title">
+            Git Commands
+        </h1>
+            <p>
+                This section is focused on the basic commands for committing changes to a repo.
+            </p>
+    </div>
+    <section class="css-cards">
+        <!-- Each card requires its own separate div we've organized through divs in the section class
+        under its own section tag -->
+        <section class="row justify-center">
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">cd</h2>
+                    <div class="card-body">
+                        <p>Use cd + the name of the folder you want to go to change current directory location.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>cd folderName
+</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">ls</h2>
+                    <div class="card-body">
+                        <p>Lists files in current directory. Can add -l to list with more details</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>ls
+</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">mkdir</h2>
+                    <div class="card-body">
+                        <p>Creates a folder in current directory.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>mkdir folderName</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">touch</h2>
+                    <div class="card-body">
+                        <p>Creates a file in current directory.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>touch filename.type</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">pwd</h2>
+                    <div class="card-body">
+                        <p>Prints the current working directory.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>pwd</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">git status</h2>
+                    <div class="card-body">
+                        <p>Checks what the current branch status is.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>git status</code></pre>
+                </figure>
+            </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Commit process with git</h2>
+                    <div class="card-body">
+                        <p>Here's a list of commands in order need to commit files to an existing github repository.</p>
+                    </div>
+                    <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                    <pre class="code-block"><code>git status
+"When no existing repo is found and you're in the correct folder"
+
+git init
+"initialize the repo"
+
+git add -A 
+"adds files to be tracked"
+
+git commit -m "initial commit"
+"commits current tracked files to be added on push"
+
+git remote add origin the-HTTPS-or-SSH-URL-ending-in-.git
+"Make sure you get the correct link for the repo or SSH URL before committing"
+
+git branch -M main
+"Specifies the branch you're committing to will be the main one"
+
+git push -u origin main
+"Commits push to the main branch of the repo"
+
+git pull origin main
+"Run after pushing to ensure your local repo is in sync with Github repo."
+                    </code></pre>
+                </figure>
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>
